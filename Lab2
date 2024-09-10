@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<HTML>
+<Head>
+    <article>
+        <header>
+            <h1>Cat</h1>
+            <p>This article is about the species commonly kept as a pet.</p>
+        </header>
+    </article>
+    <style>
+   p{
+    background-color: ghostwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+   }
+    </style>
+</Head>
+<body>
+    <main>
+        <h1>Background</h1>
+        <p>The cat (Felis catus), also referred to as domestic cat or house cat, is a small domesticated carnivorous mammal</p>
+    </main>
+    <section>
+        <h1>Size</h1>
+        <p>The domestic cat has a smaller skull and shorter bones than the European wildcat.</p>
+    </section>
+    <footer>
+        <p>Source: wikipedia</p>
+        <p><a href="https://en.wikipedia.org/wiki/Cat">Cat Wiki</a></p>
+        <nav><a href="style.css">Style by CSS</a></nav>
+    </footer>
+    <style>
+        p{
+         background-color: ghostwhite;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-style: italic;
+         font-weight: bold;
+         color: black;
+         text-align: center;
+        }
+     </style>
+     <style>
+        .flex-container {
+          display: flex;
+          background-color:burlywood;
+        }
+        
+        .flex-container > div {
+          background-color: #f1f1f1;
+          margin: 10px;
+          padding: 20px;
+          font-size: 30px;
+        }
+        </style>
+        <div class="flex-container">
+            <div>strong</div>
+            <div>flexible</div>  
+          </div>
+</body>
+</HTML>
